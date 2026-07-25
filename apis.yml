@@ -1,8 +1,29 @@
 aid: commandbar
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/commandbar.png
 name: commandbar
-description: commandbar is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  CommandBar is a product-adoption and in-app user-assistance platform that
+  helps SaaS teams onboard, guide, and support users directly inside their web
+  applications. Its embeddable widget bundles a command palette / universal
+  search (Spotlight), an AI copilot, contextual help (HelpHub), nudges and
+  product tours, checklists, and in-app surveys, all driven by a JavaScript SDK
+  (npm `commandbar`) that boots against an organization ID. CommandBar was
+  founded in 2020, backed by Insight Partners among others, and acquired by
+  Amplitude in 2024; the product is now delivered as Amplitude Guides &
+  Surveys. The standalone commandbar.com developer surface (SDK reference, REST
+  API, changelog) has been retired and redirects to Amplitude, though the npm
+  SDK remains published.
 url: https://raw.githubusercontent.com/api-evangelist/commandbar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +31,20 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: amplitude
+x-successor: https://amplitude.com/guides-and-surveys
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Product Adoption
+- User Onboarding
+- In-App Support
+- Digital Adoption
+- Customer Experience
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +53,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.commandbar.com/
+  url: https://commandbar.com/
+- type: Documentation
+  url: https://amplitude.com/guides-and-surveys
+- type: GitHubOrganization
+  url: https://github.com/commandbar
+- type: Packages
+  url: packages/commandbar-packages.yml
+- type: SDKs
+  url: packages/commandbar-packages.yml
+- type: Lifecycle
+  url: lifecycle/commandbar-lifecycle.yml
+- type: DomainSecurity
+  url: security/commandbar-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

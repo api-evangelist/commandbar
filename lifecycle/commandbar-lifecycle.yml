@@ -1,0 +1,26 @@
+generated: '2026-07-18'
+method: searched
+source: >-
+  HTTP 301 probes of commandbar.com (2026-07-18) — every path redirects to
+  https://amplitude.com/guides-and-surveys
+status: sunset
+note: >-
+  CommandBar was acquired by Amplitude (2024) and the product is now delivered
+  as Amplitude Guides & Surveys. The standalone commandbar.com developer
+  surface has been retired: the root domain and all /docs/dev/* paths (SDK
+  reference, REST API, changelog), plus /pricing, /security, /trust,
+  /privacy, /terms and trust.commandbar.com, all return HTTP 301 to
+  https://amplitude.com/guides-and-surveys. The www.commandbar.com host
+  returns 404. The npm `commandbar` package remains published (v1.14.0, last
+  updated 2024-07-26) but is no longer actively developed.
+successor:
+  product: Amplitude Guides & Surveys
+  url: https://amplitude.com/guides-and-surveys
+versioning:
+  scheme: npm-semver
+  current: 1.14.0
+  docs: https://www.npmjs.com/package/commandbar
+status_page: null
+deprecation:
+  policy_url: null
+  sunset_header: false

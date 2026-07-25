@@ -1,0 +1,18 @@
+generated: '2026-07-18'
+method: searched
+source: https://registry.npmjs.org/commandbar
+packages:
+- language: javascript
+  registry: npm
+  name: commandbar
+  url: https://www.npmjs.com/package/commandbar
+  install: npm install commandbar
+  version: 1.14.0
+  license: ISC
+  official: true
+  description: >-
+    Official CommandBar JavaScript utility / SDK. Initialize with your org ID
+    (`import { init as initCommandBar } from 'commandbar'; initCommandBar('MY_ORG_ID')`)
+    then boot the widget with `window.CommandBar.boot(userID)`. Last published
+    2024-07-26 (v1.14.0); development effectively frozen after CommandBar was
+    acquired by Amplitude and folded into Amplitude Guides & Surveys.
